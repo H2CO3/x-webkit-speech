@@ -1,0 +1,10 @@
+Package: org.h2co3.xwebkitspeech
+Name: x-webkit-speech for Safari
+Version: 0.1
+Architecture: iphoneos-arm
+Section: Tweaks
+Depends: libsprec
+Author: H2CO3
+Maintainer: H2CO3
+Description: Makes Safari recognize the x-webkit-speech attribute for text input fields on web pages.
+Depiction: http://apaczai.elte.hu/~13akga/

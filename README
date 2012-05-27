@@ -1,0 +1,12 @@
+Enables the x-webkit-speech attribute for MobileSafari using some JS and Obj-C
+injection.
+
+TODOs:
+ - make a LaunchDaemon out of the server. For now, if you reboot the device,
+   it halts.
+ - Fix that nasty (not really bug, it is *expected* to work like this) behavior
+   that repeats the speech recognition when the user presses "back" after a
+   recognitinon session.
+ - Make the speech recognition non-blocking, add a nice mike icon instead of
+   the "Listen" button...
+

@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>items</key>
+	<array>
+		<dict>
+			<key>cell</key>
+			<string>PSGroupCell</string>
+			<key>label</key>
+			<string>X-WebKit-Speech</string>
+		</dict>
+		<dict>
+			<key>cell</key>
+			<string>PSLinkListCell</string>
+			<key>defaults</key>
+			<string>org.h2co3.xwks</string>
+			<key>detail</key>
+			<string>PSListItemsController</string>
+			<key>key</key>
+			<string>Language</string>
+			<key>label</key>
+			<string>Language</string>
+			<key>default</key>
+			<integer>0</integer>
+			<key>validTitles</key>
+			<array>
+				<string>English (United States)</string>
+				<string>French</string>
+				<string>Italian</string>
+				<string>Spanish</string>
+				<string>German</string>
+				<string>Russian</string>
+				<string>Japanese</string>
+			</array>
+			<key>validValues</key>
+			<array>
+				<string>en-US</string>
+				<string>fr</string>
+				<string>it</string>
+				<string>es</string>
+				<string>ge</string>
+				<string>ru</string>
+				<string>jp</string>
+			</array>
+		</dict>
+		<dict>
+			<key>cell</key>
+			<string>PSLinkListCell</string>
+			<key>defaults</key>
+			<string>org.h2co3.xwks</string>
+			<key>detail</key>
+			<string>PSListItemsController</string>
+			<key>key</key>
+			<string>ListeningDuration</string>
+			<key>label</key>
+			<string>Listening duration</string>
+			<key>default</key>
+			<integer>2</integer>
+			<key>validTitles</key>
+			<array>
+				<string>1 second</string>
+				<string>2 seconds</string>
+				<string>3 seconds</string>
+				<string>5 seconds</string>
+				<string>10 seconds</string>
+			</array>
+			<key>validValues</key>
+			<array>
+				<real>1.0</real>
+				<real>2.0</real>
+				<real>3.0</real>
+				<real>5.0</real>
+				<real>10.0</real>
+			</array>
+		</dict>
+	</array>
+	<key>title</key>
+	<string>X-WebKit-Speech</string>
+</dict>
+</plist>
+
